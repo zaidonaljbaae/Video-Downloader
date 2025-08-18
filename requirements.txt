@@ -1,1 +1,14 @@
-pytube
+# GUI framework
+ttkbootstrap>=1.10.1
+
+# Video/audio downloader (yt-dlp)
+yt-dlp>=2025.1.15
+
+# Video processing / ffmpeg-python wrapper (optional, in case you use it in code)
+ffmpeg-python>=0.2.0
+
+# Pillow (if you handle images e.g., logo.jpg, thumbnails)
+Pillow>=10.0.0
+
+# Requests (in case of extra API or HTTP calls)
+requests>=2.31.0
